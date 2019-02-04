@@ -3,7 +3,7 @@
 ## Lesson
 To implement DOM events, use the process flow:
 1. Identify the element you are watching/targetting
-2. Set an event listener on it with what you're listening for and referencing the function that should be invoked when the even occurs
+2. Set an event listener on it with what is being listening for and reference the function that should be invoked when the even occurs
 3. Write a function with all of the things that should happen once the event is triggered
 
 
@@ -19,7 +19,7 @@ To implement DOM events, use the process flow:
 ```javascript
 #identify the element you are watching/targetting
 let playButton = document.getElementById("play-button");
-#set an event listener on it with what you\'re listening for and referencing the function that should be invoked when the even occurs
+#set an event listener on it with what is being listening for and reference the function that should be invoked when the even occurs
 playButton.addEventListener("click", myEventHandler);
 
 #write a function with all of the things that should happen once the event is triggered
