@@ -1,4 +1,6 @@
 # FunWithDOMEvents
+* **Level:** Beginner
+* **Description:** Practice implementing DOM events using vanilla Javascript
 
 ## Lesson
 To implement DOM events, use the process flow:
