@@ -33,3 +33,7 @@ function myEventHandler() {
 * mouse over → “mouseover” 
 * copy → “copy”
 * right click → “contextmenu”
+
+
+## Solution Gist
+[script.js](https://gist.github.com/isabellatea/ce018806a17f1887b0b614478fd93243)
