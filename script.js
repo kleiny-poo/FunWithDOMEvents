@@ -1,24 +1,31 @@
 let ch1=document.getElementById("challenge-one");
 
 ch1.addEventListener("dblclick", disappear);
-
+let body = document.getElementsByTagName("body")[0];
 
 function disappear() {
-	ch1.fill: transparent;
+	body.removeChild(ch1);
 }
 
 
 let playBtn= document.getElementById("play-button");
 
 playBtn.addEventListener("mouseover", whenHovered);
-playBtn.addEventListener("mouseout", whenDoneHovering);
+playBtn.addEventListener("mouseout", whenDoneHover);
+
 function whenHovered() {
-	playBtn.style.color = "pink";
+	playBtn.style.backgroundColor = "pink";
+
 }
 
-function whenDoneHovering() {
-	playBtn.style.color = "lightgreen";
+function whenDoneHover() {
+	playBtn.style.backgroundColor = "lightgreen";
 }
 
 
+let title= document.getElementById("page-title");
+title.addEventListener("copy",copy);
 
+function copy() {
+	alert("STOP DO NOT COPY U ANIMAL");
+}
